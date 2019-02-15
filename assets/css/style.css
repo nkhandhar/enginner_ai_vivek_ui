@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'KohinoorDevanagari-Light';
+    src: url('../fonts/KohinoorDevanagari-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/KohinoorDevanagari-Light.woff') format('woff'), url('../fonts/KohinoorDevanagari-Light.ttf') format('truetype'), url('../fonts/KohinoorDevanagari-Light.svg#KohinoorDevanagari-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'KohinoorDevanagari-Light';
+}
+.form-input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.form-input::-moz-placeholder {
+    color: #fff;
+}
+
+.form-input:-ms-input-placeholder {    
+    color: #fff;
+}
+
+.form-input:-moz-placeholder {
+    color: #fff;
+}
+.header-section {
+    height: 100vh;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    width: 50%;
+}
+
+.right-side {
+    float: right;
+}
+
+.right-side .icons{
+    padding: 10px;
+    font-weight: 900;
+    color: #808080;
+}
+
+.background {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100%;
+    background-color: #010101;
+    padding: 25px;
+}
+
+.banner-content {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 240px;
+}
+
+.banner-content h1 {
+    color: #fff;
+    padding-bottom: 30px;
+    font-size: 48px;
+}
+
+.search-hero {
+    border-bottom: 1px solid #a0cf32;
+    display: inline-block;
+}
+
+.form-input {
+    background: transparent;
+    border: 0px;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.form-input:focus,
+.form-input:hover {
+    outline: 0;
+}
+
+.banner-content h6 {
+
+    text-align: center;
+    margin: 0px auto;
+    border-bottom: 1px solid #a0cf32;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.arrow-sprite {
+    margin-left: 10px;
+    margin-top: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.banner-content p {
+    color: #808080;
+    font-size: 16px;
+    padding-top: 220px;
+    padding-bottom: 20px;
+}
+
+.down-arrow {
+    display: inline-block;
+}
+
+.down-arrow img {
+    border: 1px solid #fff;
+    border-radius: 150px;
+    padding: 7px;
+    width: 30px;
+    height: 31px;
+}
+
+.banner-content p a {
+    color: #808080;
+}
+
+.banner-content h6::before {
+    height: 1px;
+    width: 200px;
+    background-color: #a0cf32;
+    content: "";
+}
+
+.ea-sec-three {
+    background-image: url('../images/section_three.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: table;
+}
+
+.ea-sec-three.sec-img {
+    background-image: url('../images/section_two.jpg');
+}
+
+.ea-sec-green {
+    width: 25%;
+    background: #a0cf32;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 50px;
+}
+
+.ea-sec-green blockquote {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+    margin: 50px 0 20px;
+}
+
+.ea-sec-green ul {
+    list-style: none;
+    margin: 0 0 50px;
+    padding: 0;
+}
+
+.ea-sec-green ul li {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    line-height: 1.5;
+    position: relative;
+    padding-left: 15px;
+}
+
+.ea-sec-green ul li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 7px;
+    height: 2px;
+    background: #fff;
+}
+
+.ea-text-center {
+    text-align: center;
+}
+
+.ea-sec-green .ea-btn-contact {
+    font-size: 18px;
+    border: 1px solid #fff;
+    height: 38px;
+    background: none;
+    color: #fff;
+    font-weight: normal;
+    border-radius: 10px;
+    padding: 5px 30px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+}
+.ea-sec-green .ea-btn-contact:hover, .ea-sec-green .ea-btn-contact:focus, .ea-sec-green .ea-btn-contact:active {
+    background: #fff;
+    color: #a0cf32;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    outline: none;
+}
+
+.ea-sec-three-right {
+    width: 50%;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.ea-sec-three-right h3 {
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    margin: 0 auto;
+    width: 50%;
+    font-weight: normal;
+}
+
+.ea-sec-three-right h3 span {
+    color: #a0cf32;
+    display: block;
+    margin-bottom: 30px;
+}
